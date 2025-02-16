@@ -1,5 +1,5 @@
 module liquidity_pool_calculator::lpc {
-    use std::string::{String, utf8};
+    use std::string::{utf8};
 
     const E_INVALID_USDT_AMOUNT: u64 = 1;
     const E_NOT_ENOUGH_USDT: u64 = 2;
