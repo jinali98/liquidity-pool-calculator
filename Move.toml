@@ -4,7 +4,7 @@ version = "1.0.0"
 authors = []
 
 [addresses]
-liquidity_pool_calculator = "17f8459d925ecc71986e9e28f56643bc935b02fdf6b512fbd25439272c94687b
+liquidity_pool_calculator = "17f8459d925ecc71986e9e28f56643bc935b02fdf6b512fbd25439272c94687b"
 
 [dev-addresses]
 
