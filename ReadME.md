@@ -16,6 +16,9 @@ Initial liquidity pool contains:
 
 ## Swap Calculation Example
 
+Note: Move doesn't support floating-point numbers, so all calculations use the smallest unit of the token.
+
+
 ### Scenario 1
 We want to swap 495 USDT for JP tokens with a 5% swap fee.
 
@@ -30,7 +33,6 @@ We want to swap 495 USDT for JP tokens with a 5% swap fee.
    ```
    k = USDT × JP = 3,201 × 312 = 998,712
    ```
-   Note: Move doesn't support floating-point numbers, so all calculations use the smallest unit of the token.
 
 3. **Calculate New USDT Supply**
    ```
